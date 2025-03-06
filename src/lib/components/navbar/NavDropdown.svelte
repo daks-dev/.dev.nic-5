@@ -7,7 +7,7 @@
   // import { clickOutside } from 'flowbite-svelte/dist/utils/clickOutside';
   import type { NavItem } from '@daks.dev/svelte.sdk';
 
-  export let liButtonClass = 'flex items-center justify-between w-full';
+  export let liButtonClass = 'flex items-center justify-between w-full cursor-pointer';
   //export let name;
   //export let child = [];
 

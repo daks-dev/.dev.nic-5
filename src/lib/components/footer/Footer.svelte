@@ -12,7 +12,7 @@
 </script>
 
 <Footer class="px-2 py-3 text-sm sm:px-4">
-  <div class="container mx-auto flex items-center max-sm:flex-col sm:justify-between">
+  <div class="wrapper-2xl mx-auto flex items-center max-sm:flex-col sm:justify-between">
     <FooterCopyright
       href="/"
       by="НИЦ «Строительная экспертиза»&trade;"

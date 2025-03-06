@@ -42,6 +42,8 @@
   class="
     overflow-offset dark:bg-primary-700 fixed top-0 left-0 z-40
     shadow-md"
+  navContainerClass="wrapper-2xl"
+  fluid
   color="navbar">
   {@const close = () => hidden || toggle()}
 
@@ -57,7 +59,7 @@
     </span-->
   </NavBrand>
 
-  <DarkMode class="bp:order-last bp:ml-0 ml-auto" />
+  <DarkMode class="bp:order-last bp:ml-0 ml-auto cursor-pointer" />
 
   <NavHamburger
     on:click={toggle}
