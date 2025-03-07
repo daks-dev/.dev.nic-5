@@ -106,7 +106,7 @@
     <YandexMap
       class={[
         'min-h-full w-full overflow-hidden',
-        'bg-waiting bg-25% sm:bg-20% md:bg-10% xl:bg-5% bg-gray-200 bg-center bg-no-repeat',
+        'bg--waiting bg-25% sm:bg-20% md:bg-10% xl:bg-5% bg-gray-200 bg-center bg-no-repeat',
         'border-4 border-slate-400'
       ]}
       data={dataset} />
