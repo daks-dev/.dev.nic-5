@@ -60,12 +60,16 @@ export const nav: NavSite = {
         label: 'Проекты'
       },
       {
+        href: '/regulation',
+        label: 'Регламент'
+      },
+      {
         href: '/permissions',
         label: 'Допуски'
       },
       {
-        href: '/regulation',
-        label: 'Регламент'
+        href: '/news',
+        label: 'Новости'
       },
       {
         href: '/contacts',
@@ -81,12 +85,12 @@ export const nav: NavSite = {
         disallow: true
       },
       {
-        href: '/permissions',
-        label: 'Допуски'
-      },
-      {
         href: '/regulation',
         label: 'Регламент'
+      },
+      {
+        href: '/permissions',
+        label: 'Допуски'
       },
       {
         href: '/contacts',
