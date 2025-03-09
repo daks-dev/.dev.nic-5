@@ -2,8 +2,8 @@
   import { DEV } from 'esm-env';
   import { Head, Icon, SvelteKitCounter } from '@daks.dev/svelte.sdk';
 
-  import type { PageData } from './$types';
-  export let data: PageData;
+  import type { PageProps } from './$types';
+  let { data }: PageProps = $props();
   const { version } = data;
 
   let waiting = false;

@@ -12,8 +12,8 @@
   import '../app.css';
   import '$iconify';
 
-  import type { LayoutData } from './$types';
-  export let data: LayoutData;
+  import type { LayoutProps } from './$types';
+  let { children, data }: LayoutProps = $props();
 
   import { app, nav, draver } from '$lib/configs';
 
@@ -26,7 +26,7 @@
   class="flex grow flex-col"
   refresh={data.refresh}
   mode="1">
-  <slot />
+  {@render children?.()}
 </RouteTransition>
 
 <Footer {...nav.footer} />
